@@ -1,0 +1,127 @@
+@import "../vars";
+
+.header {
+  background-image: url(../../images/bgc.png);
+
+  &__inner {
+    display: flex;
+    height: 850px;
+    justify-content: center;
+  }
+
+  &__welcome-text {
+    max-height: 28px;
+    padding: 7px 0;
+    background-color: $dark-color;
+    color: $light;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 0.5px;
+  }
+  &__links {
+    margin: 0;
+    padding: 0;
+  }
+  &__link {
+    position: absolute;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: $dark-color;
+    text-decoration: none;
+    margin-top: 46px;
+    margin-left: 78px;
+  }
+  &__logo {
+    position: absolute;
+    margin-top: 30px;
+    text-align: center;
+  }
+  &__nav {
+    margin: 0;
+    padding: 0;
+  }
+  &__menu {
+    display: flex;
+    list-style: none;
+    width: 1073px;
+    margin-top: 234px;
+    margin-left: 336px;
+  }
+
+  &__menu-item {
+    color: $dark;
+  }
+  &__item-links {
+    color: $dark;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    margin-right: 49px;
+  }
+  &__submenu-item {
+    display: none;
+    list-style: none;
+  }
+  &__submenu-link {
+    text-decoration: none;
+    color: $dark;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    margin-right: 49px;
+    text-align: center;
+    background-color: aqua;
+    padding: 10px;
+  }
+  &__title {
+    position: absolute;
+    width: 515px;
+    margin-top: 287px;
+  }
+  &__title-text {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 90px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: $dark-color;
+
+    span {
+      position: absolute;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 80px;
+      line-height: 90px;
+      text-align: center;
+      letter-spacing: 1px;
+      color: $help-color;
+      margin-left: 15px;
+    }
+  }
+  &__btn {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: $dark-color;
+    background-color: $btn-color;
+    border-radius: 8px;
+    margin-top: 52px;
+    margin-left: 30%;
+    padding: 17px 68px;
+  }
+}
